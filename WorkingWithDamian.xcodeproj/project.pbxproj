@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACDBB48C2ACF11CA00C99D1F /* WorkingWithDamianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB48B2ACF11CA00C99D1F /* WorkingWithDamianApp.swift */; };
-		ACDBB48E2ACF11CA00C99D1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB48D2ACF11CA00C99D1F /* ContentView.swift */; };
+		ACDBB48C2ACF11CA00C99D1F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB48B2ACF11CA00C99D1F /* App.swift */; };
 		ACDBB4902ACF11CA00C99D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDBB48F2ACF11CA00C99D1F /* Assets.xcassets */; };
 		ACDBB4932ACF11CA00C99D1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDBB4922ACF11CA00C99D1F /* Preview Assets.xcassets */; };
 		ACDBB49D2ACF11CB00C99D1F /* WorkingWithDamianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB49C2ACF11CB00C99D1F /* WorkingWithDamianTests.swift */; };
 		ACDBB4A72ACF11CB00C99D1F /* WorkingWithDamianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4A62ACF11CB00C99D1F /* WorkingWithDamianUITests.swift */; };
 		ACDBB4A92ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4A82ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift */; };
+		ACDBB4BC2ACF12A000C99D1F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4BB2ACF12A000C99D1F /* Header.swift */; };
+		ACDBB4D82ACF16D200C99D1F /* MVPModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D32ACF16D200C99D1F /* MVPModifier.swift */; };
+		ACDBB4D92ACF16D200C99D1F /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D42ACF16D200C99D1F /* Coin.swift */; };
+		ACDBB4DA2ACF16D200C99D1F /* Stretch1.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D52ACF16D200C99D1F /* Stretch1.swift */; };
+		ACDBB4DB2ACF16D200C99D1F /* Stretch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D62ACF16D200C99D1F /* Stretch3.swift */; };
+		ACDBB4DC2ACF16D200C99D1F /* Protocals.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D72ACF16D200C99D1F /* Protocals.swift */; };
+		ACDBB4EC2ACF17B900C99D1F /* Retrieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4E82ACF17B900C99D1F /* Retrieve.swift */; };
+		ACDBB4ED2ACF17B900C99D1F /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4E92ACF17B900C99D1F /* Persistance.swift */; };
+		ACDBB4EE2ACF17B900C99D1F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4EA2ACF17B900C99D1F /* Contact.swift */; };
+		ACDBB4EF2ACF17B900C99D1F /* Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4EB2ACF17B900C99D1F /* Save.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +44,7 @@
 
 /* Begin PBXFileReference section */
 		ACDBB4882ACF11CA00C99D1F /* WorkingWithDamian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkingWithDamian.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACDBB48B2ACF11CA00C99D1F /* WorkingWithDamianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDamianApp.swift; sourceTree = "<group>"; };
-		ACDBB48D2ACF11CA00C99D1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACDBB48B2ACF11CA00C99D1F /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		ACDBB48F2ACF11CA00C99D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACDBB4922ACF11CA00C99D1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACDBB4982ACF11CB00C99D1F /* WorkingWithDamianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingWithDamianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,16 @@
 		ACDBB4A22ACF11CB00C99D1F /* WorkingWithDamianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingWithDamianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDBB4A62ACF11CB00C99D1F /* WorkingWithDamianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDamianUITests.swift; sourceTree = "<group>"; };
 		ACDBB4A82ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDamianUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACDBB4BB2ACF12A000C99D1F /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		ACDBB4D32ACF16D200C99D1F /* MVPModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVPModifier.swift; path = WorkingWithDamian/Protocals/MVPModifier.swift; sourceTree = SOURCE_ROOT; };
+		ACDBB4D42ACF16D200C99D1F /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coin.swift; path = WorkingWithDamian/Protocals/Coin.swift; sourceTree = SOURCE_ROOT; };
+		ACDBB4D52ACF16D200C99D1F /* Stretch1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stretch1.swift; path = WorkingWithDamian/Protocals/Stretch1.swift; sourceTree = SOURCE_ROOT; };
+		ACDBB4D62ACF16D200C99D1F /* Stretch3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stretch3.swift; path = WorkingWithDamian/Protocals/Stretch3.swift; sourceTree = SOURCE_ROOT; };
+		ACDBB4D72ACF16D200C99D1F /* Protocals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Protocals.swift; path = WorkingWithDamian/Protocals/Protocals.swift; sourceTree = SOURCE_ROOT; };
+		ACDBB4E82ACF17B900C99D1F /* Retrieve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Retrieve.swift; sourceTree = "<group>"; };
+		ACDBB4E92ACF17B900C99D1F /* Persistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		ACDBB4EA2ACF17B900C99D1F /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		ACDBB4EB2ACF17B900C99D1F /* Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Save.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,9 @@
 		ACDBB48A2ACF11CA00C99D1F /* WorkingWithDamian */ = {
 			isa = PBXGroup;
 			children = (
-				ACDBB48B2ACF11CA00C99D1F /* WorkingWithDamianApp.swift */,
-				ACDBB48D2ACF11CA00C99D1F /* ContentView.swift */,
+				ACDBB4F02ACF17C800C99D1F /* Persistance */,
+				ACDBB4CD2ACF169F00C99D1F /* Protocals */,
+				ACDBB48B2ACF11CA00C99D1F /* App.swift */,
 				ACDBB48F2ACF11CA00C99D1F /* Assets.xcassets */,
 				ACDBB4912ACF11CA00C99D1F /* Preview Content */,
 			);
@@ -125,6 +144,32 @@
 				ACDBB4A82ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift */,
 			);
 			path = WorkingWithDamianUITests;
+			sourceTree = "<group>";
+		};
+		ACDBB4CD2ACF169F00C99D1F /* Protocals */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBB4D42ACF16D200C99D1F /* Coin.swift */,
+				ACDBB4D32ACF16D200C99D1F /* MVPModifier.swift */,
+				ACDBB4D72ACF16D200C99D1F /* Protocals.swift */,
+				ACDBB4D52ACF16D200C99D1F /* Stretch1.swift */,
+				ACDBB4D62ACF16D200C99D1F /* Stretch3.swift */,
+			);
+			name = Protocals;
+			path = Persistance/Protocals;
+			sourceTree = "<group>";
+		};
+		ACDBB4F02ACF17C800C99D1F /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBB4BB2ACF12A000C99D1F /* Header.swift */,
+				ACDBB4EA2ACF17B900C99D1F /* Contact.swift */,
+				ACDBB4E92ACF17B900C99D1F /* Persistance.swift */,
+				ACDBB4E82ACF17B900C99D1F /* Retrieve.swift */,
+				ACDBB4EB2ACF17B900C99D1F /* Save.swift */,
+			);
+			name = Persistance;
+			path = Persistance/Protocals/Persistance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +302,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDBB48E2ACF11CA00C99D1F /* ContentView.swift in Sources */,
-				ACDBB48C2ACF11CA00C99D1F /* WorkingWithDamianApp.swift in Sources */,
+				ACDBB4DA2ACF16D200C99D1F /* Stretch1.swift in Sources */,
+				ACDBB4D82ACF16D200C99D1F /* MVPModifier.swift in Sources */,
+				ACDBB4EE2ACF17B900C99D1F /* Contact.swift in Sources */,
+				ACDBB48C2ACF11CA00C99D1F /* App.swift in Sources */,
+				ACDBB4D92ACF16D200C99D1F /* Coin.swift in Sources */,
+				ACDBB4EF2ACF17B900C99D1F /* Save.swift in Sources */,
+				ACDBB4BC2ACF12A000C99D1F /* Header.swift in Sources */,
+				ACDBB4ED2ACF17B900C99D1F /* Persistance.swift in Sources */,
+				ACDBB4DB2ACF16D200C99D1F /* Stretch3.swift in Sources */,
+				ACDBB4DC2ACF16D200C99D1F /* Protocals.swift in Sources */,
+				ACDBB4EC2ACF17B900C99D1F /* Retrieve.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
