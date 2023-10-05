@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACDBB48C2ACF11CA00C99D1F /* WorkingWithDamianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB48B2ACF11CA00C99D1F /* WorkingWithDamianApp.swift */; };
+		ACDBB48E2ACF11CA00C99D1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB48D2ACF11CA00C99D1F /* ContentView.swift */; };
+		ACDBB4902ACF11CA00C99D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDBB48F2ACF11CA00C99D1F /* Assets.xcassets */; };
+		ACDBB4932ACF11CA00C99D1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDBB4922ACF11CA00C99D1F /* Preview Assets.xcassets */; };
+		ACDBB49D2ACF11CB00C99D1F /* WorkingWithDamianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB49C2ACF11CB00C99D1F /* WorkingWithDamianTests.swift */; };
+		ACDBB4A72ACF11CB00C99D1F /* WorkingWithDamianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4A62ACF11CB00C99D1F /* WorkingWithDamianUITests.swift */; };
+		ACDBB4A92ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4A82ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACDBB4992ACF11CB00C99D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDBB4802ACF11CA00C99D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDBB4872ACF11CA00C99D1F;
+			remoteInfo = WorkingWithDamian;
+		};
+		ACDBB4A32ACF11CB00C99D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDBB4802ACF11CA00C99D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDBB4872ACF11CA00C99D1F;
+			remoteInfo = WorkingWithDamian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACDBB4882ACF11CA00C99D1F /* WorkingWithDamian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkingWithDamian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDBB48B2ACF11CA00C99D1F /* WorkingWithDamianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDamianApp.swift; sourceTree = "<group>"; };
+		ACDBB48D2ACF11CA00C99D1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACDBB48F2ACF11CA00C99D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDBB4922ACF11CA00C99D1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACDBB4982ACF11CB00C99D1F /* WorkingWithDamianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingWithDamianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDBB49C2ACF11CB00C99D1F /* WorkingWithDamianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDamianTests.swift; sourceTree = "<group>"; };
+		ACDBB4A22ACF11CB00C99D1F /* WorkingWithDamianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingWithDamianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDBB4A62ACF11CB00C99D1F /* WorkingWithDamianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDamianUITests.swift; sourceTree = "<group>"; };
+		ACDBB4A82ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDamianUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDBB4852ACF11CA00C99D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDBB4952ACF11CB00C99D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDBB49F2ACF11CB00C99D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDBB47F2ACF11CA00C99D1F = {
+			isa = PBXGroup;
+			children = (
+				ACDBB48A2ACF11CA00C99D1F /* WorkingWithDamian */,
+				ACDBB49B2ACF11CB00C99D1F /* WorkingWithDamianTests */,
+				ACDBB4A52ACF11CB00C99D1F /* WorkingWithDamianUITests */,
+				ACDBB4892ACF11CA00C99D1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDBB4892ACF11CA00C99D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBB4882ACF11CA00C99D1F /* WorkingWithDamian.app */,
+				ACDBB4982ACF11CB00C99D1F /* WorkingWithDamianTests.xctest */,
+				ACDBB4A22ACF11CB00C99D1F /* WorkingWithDamianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDBB48A2ACF11CA00C99D1F /* WorkingWithDamian */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBB48B2ACF11CA00C99D1F /* WorkingWithDamianApp.swift */,
+				ACDBB48D2ACF11CA00C99D1F /* ContentView.swift */,
+				ACDBB48F2ACF11CA00C99D1F /* Assets.xcassets */,
+				ACDBB4912ACF11CA00C99D1F /* Preview Content */,
+			);
+			path = WorkingWithDamian;
+			sourceTree = "<group>";
+		};
+		ACDBB4912ACF11CA00C99D1F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBB4922ACF11CA00C99D1F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACDBB49B2ACF11CB00C99D1F /* WorkingWithDamianTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBB49C2ACF11CB00C99D1F /* WorkingWithDamianTests.swift */,
+			);
+			path = WorkingWithDamianTests;
+			sourceTree = "<group>";
+		};
+		ACDBB4A52ACF11CB00C99D1F /* WorkingWithDamianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBB4A62ACF11CB00C99D1F /* WorkingWithDamianUITests.swift */,
+				ACDBB4A82ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift */,
+			);
+			path = WorkingWithDamianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDBB4872ACF11CA00C99D1F /* WorkingWithDamian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDBB4AC2ACF11CB00C99D1F /* Build configuration list for PBXNativeTarget "WorkingWithDamian" */;
+			buildPhases = (
+				ACDBB4842ACF11CA00C99D1F /* Sources */,
+				ACDBB4852ACF11CA00C99D1F /* Frameworks */,
+				ACDBB4862ACF11CA00C99D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkingWithDamian;
+			productName = WorkingWithDamian;
+			productReference = ACDBB4882ACF11CA00C99D1F /* WorkingWithDamian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACDBB4972ACF11CB00C99D1F /* WorkingWithDamianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDBB4AF2ACF11CB00C99D1F /* Build configuration list for PBXNativeTarget "WorkingWithDamianTests" */;
+			buildPhases = (
+				ACDBB4942ACF11CB00C99D1F /* Sources */,
+				ACDBB4952ACF11CB00C99D1F /* Frameworks */,
+				ACDBB4962ACF11CB00C99D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDBB49A2ACF11CB00C99D1F /* PBXTargetDependency */,
+			);
+			name = WorkingWithDamianTests;
+			productName = WorkingWithDamianTests;
+			productReference = ACDBB4982ACF11CB00C99D1F /* WorkingWithDamianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACDBB4A12ACF11CB00C99D1F /* WorkingWithDamianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDBB4B22ACF11CB00C99D1F /* Build configuration list for PBXNativeTarget "WorkingWithDamianUITests" */;
+			buildPhases = (
+				ACDBB49E2ACF11CB00C99D1F /* Sources */,
+				ACDBB49F2ACF11CB00C99D1F /* Frameworks */,
+				ACDBB4A02ACF11CB00C99D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDBB4A42ACF11CB00C99D1F /* PBXTargetDependency */,
+			);
+			name = WorkingWithDamianUITests;
+			productName = WorkingWithDamianUITests;
+			productReference = ACDBB4A22ACF11CB00C99D1F /* WorkingWithDamianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDBB4802ACF11CA00C99D1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ACDBB4872ACF11CA00C99D1F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ACDBB4972ACF11CB00C99D1F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ACDBB4872ACF11CA00C99D1F;
+					};
+					ACDBB4A12ACF11CB00C99D1F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ACDBB4872ACF11CA00C99D1F;
+					};
+				};
+			};
+			buildConfigurationList = ACDBB4832ACF11CA00C99D1F /* Build configuration list for PBXProject "WorkingWithDamian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDBB47F2ACF11CA00C99D1F;
+			productRefGroup = ACDBB4892ACF11CA00C99D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDBB4872ACF11CA00C99D1F /* WorkingWithDamian */,
+				ACDBB4972ACF11CB00C99D1F /* WorkingWithDamianTests */,
+				ACDBB4A12ACF11CB00C99D1F /* WorkingWithDamianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDBB4862ACF11CA00C99D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDBB4932ACF11CA00C99D1F /* Preview Assets.xcassets in Resources */,
+				ACDBB4902ACF11CA00C99D1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDBB4962ACF11CB00C99D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDBB4A02ACF11CB00C99D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDBB4842ACF11CA00C99D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDBB48E2ACF11CA00C99D1F /* ContentView.swift in Sources */,
+				ACDBB48C2ACF11CA00C99D1F /* WorkingWithDamianApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDBB4942ACF11CB00C99D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDBB49D2ACF11CB00C99D1F /* WorkingWithDamianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDBB49E2ACF11CB00C99D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDBB4A92ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift in Sources */,
+				ACDBB4A72ACF11CB00C99D1F /* WorkingWithDamianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACDBB49A2ACF11CB00C99D1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDBB4872ACF11CA00C99D1F /* WorkingWithDamian */;
+			targetProxy = ACDBB4992ACF11CB00C99D1F /* PBXContainerItemProxy */;
+		};
+		ACDBB4A42ACF11CB00C99D1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDBB4872ACF11CA00C99D1F /* WorkingWithDamian */;
+			targetProxy = ACDBB4A32ACF11CB00C99D1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACDBB4AA2ACF11CB00C99D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACDBB4AB2ACF11CB00C99D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDBB4AD2ACF11CB00C99D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkingWithDamian/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phs.WorkingWithDamian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACDBB4AE2ACF11CB00C99D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkingWithDamian/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phs.WorkingWithDamian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACDBB4B02ACF11CB00C99D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phs.WorkingWithDamianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkingWithDamian.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkingWithDamian";
+			};
+			name = Debug;
+		};
+		ACDBB4B12ACF11CB00C99D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phs.WorkingWithDamianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkingWithDamian.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkingWithDamian";
+			};
+			name = Release;
+		};
+		ACDBB4B32ACF11CB00C99D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phs.WorkingWithDamianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkingWithDamian;
+			};
+			name = Debug;
+		};
+		ACDBB4B42ACF11CB00C99D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phs.WorkingWithDamianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkingWithDamian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDBB4832ACF11CA00C99D1F /* Build configuration list for PBXProject "WorkingWithDamian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDBB4AA2ACF11CB00C99D1F /* Debug */,
+				ACDBB4AB2ACF11CB00C99D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDBB4AC2ACF11CB00C99D1F /* Build configuration list for PBXNativeTarget "WorkingWithDamian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDBB4AD2ACF11CB00C99D1F /* Debug */,
+				ACDBB4AE2ACF11CB00C99D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDBB4AF2ACF11CB00C99D1F /* Build configuration list for PBXNativeTarget "WorkingWithDamianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDBB4B02ACF11CB00C99D1F /* Debug */,
+				ACDBB4B12ACF11CB00C99D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDBB4B22ACF11CB00C99D1F /* Build configuration list for PBXNativeTarget "WorkingWithDamianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDBB4B32ACF11CB00C99D1F /* Debug */,
+				ACDBB4B42ACF11CB00C99D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDBB4802ACF11CA00C99D1F /* Project object */;
+}
