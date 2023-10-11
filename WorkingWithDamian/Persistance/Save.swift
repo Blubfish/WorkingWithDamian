@@ -1,9 +1,6 @@
 import SwiftUI
 
 struct Save: View {
-    //MARK: MVP - Part I
-    //MARK: Stretch #1 - Part I
-
     @AppStorage("number1") var number1: Int?
     @State var number2: Int?
     
