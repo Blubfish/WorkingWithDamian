@@ -5,7 +5,7 @@ struct ProtocalChallenge: View {
         Coin(name: "Penny", value: 1 ),
         Coin(name: "Nickel", value: 5),
         Coin(name: "Dime", value: 10),
-        Coin(name: "Quater", value: 25)
+        Coin(name: "Quarter", value: 25)
     ]
     
     var body: some View {
