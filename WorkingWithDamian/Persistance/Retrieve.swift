@@ -1,42 +1,47 @@
 import SwiftUI
 
-struct RetrieveView: View {
-    @State var number2: String = "Not Loaded Yet"
-    @State var url2: URL = URL(string: "https://www.apple.com")!
+struct Retrieve: View {
+    @AppStorage("number1") var number1: Int?
+    @State var number2: Int? = UserDefaults.standard.integer(forKey: "number2")
+    
+    @AppStorage("url1") var url1: URL?
+    @State var url2: URL? = UserDefaults.standard.url(forKey: "url2")
+    
     @State var array: [Double] = []
     
     @State var name = ""
     @State var age = ""
-    @State var phoneNumber = ""
-
-    //MARK: MVP - Part III
-    //MARK: Stretch #1 - Part III
+    @State var phone = ""
  
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             Group {
                 Text("MVP")
                 HStack {
-                    Text("Number1: ")
-                    //TODO: MVP
-//                    Text("\(number1)")
+                    if let number = self.number1 {
+                        Text("Number1: \(number)")
+                    }
                 }
                 HStack {
-                    Text("Number2: ")
-                    Text("\(number2)")
+                    if let number = self.number2 {
+                        Text("Number2: \(number)")
+                    }
                 }
             }
             
             Group {
                 Text("Stretch #1")
-                //TODO: Stretch #1
-//                Link("Load URL #1", destination: url1)
-                Link("Load URL #2", destination: url2)
+                if let url = self.url1 {
+                    Link("Load URL #1", destination: url)
+                }
+                if let url = self.url2 {
+                    Link("Load URL #2", destination: url)
+                }
             }
            
             Group {
                 Text("Stretch #2")
-                ForEach(array, id: \.self) { value in
+                ForEach(self.array, id: \.self) { value in
                     Text("\(value) ")
                 }  
             }
@@ -44,16 +49,19 @@ struct RetrieveView: View {
             Group {
                 Text("Stretch #3")
                 HStack {
-                    Text("Name: ")
-                    Text(name)
+                    if self.name != "" {
+                        Text("Name: \(self.name)")
+                    }
                 }
                 HStack {
-                    Text("Age: ")
-                    Text(age)
+                    if self.age != "" {
+                        Text("Age: \(self.age)")
+                    }
                 }
                 HStack {
-                    Text("Phone Number: ")
-                    Text(phoneNumber)
+                    if self.name != "" {
+                        Text("Phone Number: \(self.phone)")
+                    }
                 }  
             }
         }
@@ -61,10 +69,28 @@ struct RetrieveView: View {
         .padding()
         .font(.title)
         .onAppear(perform: {
-            //MARK: MVP - Part IV
-            //MARK: Stretch #1 - Part IV
-            //MARK: Stretch #2 - Part II
-            //MARK: Stretch #3 - Part II
+            self.number2 = UserDefaults.standard.integer(forKey: "number2")
+            
+            self.url2 = UserDefaults.standard.url(forKey: "url2")
+            
+            self.array = UserDefaults.standard.array(forKey: "array") as! [Double]
+            
+            let contact = { () -> Contact in
+                if let json = UserDefaults.standard.data(forKey: "contact") {
+                    if let contact = try? JSONDecoder().decode(Contact.self, from: json) as Contact {
+                        return contact
+                    } else {
+                        return Contact()
+                    }
+                } else {
+                    return Contact()
+                }
+            }()
+            self.name = contact.name
+            if let age = contact.age {
+                self.age = String(age)
+            }
+            self.phone = contact.phone
         })
     }
 }

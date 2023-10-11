@@ -8,7 +8,7 @@ struct PersistanceChallenge: View {
                 .font(.largeTitle)
             HStack(spacing: 50) {
                 NavigationLink { 
-                    SaveView()
+                    Save()
                 } label: { 
                     VStack {
                         Image(systemName: "square.and.arrow.down.fill")
@@ -17,9 +17,8 @@ struct PersistanceChallenge: View {
                             .font(.largeTitle)
                     }
                 }
-
                 NavigationLink { 
-                    RetrieveView()
+                    Retrieve()
                 } label: { 
                     VStack {
                         Image(systemName: "square.and.arrow.up.fill")
