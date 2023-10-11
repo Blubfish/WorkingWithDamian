@@ -1,19 +1,21 @@
 import SwiftUI
 
 struct ProtocalChallenge: View {
-    @State var CoinValue = [Coin(name: "Penny", value: 1 ),
-                                Coin(name: "Nickel", value: 5),
-                                Coin(name: "Dime", value: 10),
-                                Coin(name: "Quater", value: 25)]
-    @State var TrapazoidShape = Trapazoid()
+    @State var CoinValue = [
+        Coin(name: "Penny", value: 1 ),
+        Coin(name: "Nickel", value: 5),
+        Coin(name: "Dime", value: 10),
+        Coin(name: "Quater", value: 25)
+    ]
+    
     var body: some View {
         Header(name: "Protocal Challenge")
         Spacer()
         Text("MVP Works")
             .modifier(MVPModifier())
-        Stretch1()
+        Map()
             .frame(width: 300.0, height: 200.0)
-        List{
+        List {
             ForEach(CoinValue) { coin in
                 HStack {
                     Text(coin.name)
@@ -22,8 +24,7 @@ struct ProtocalChallenge: View {
                 }
             }
         }
-        TrapazoidShape
+        Trapezoid()
         Spacer()
-  
     }
 }

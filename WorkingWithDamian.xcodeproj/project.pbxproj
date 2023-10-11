@@ -15,8 +15,8 @@
 		ACDBB4A92ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4A82ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift */; };
 		ACDBB4D82ACF16D200C99D1F /* MVPModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D32ACF16D200C99D1F /* MVPModifier.swift */; };
 		ACDBB4D92ACF16D200C99D1F /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D42ACF16D200C99D1F /* Coin.swift */; };
-		ACDBB4DA2ACF16D200C99D1F /* Stretch1.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D52ACF16D200C99D1F /* Stretch1.swift */; };
-		ACDBB4DB2ACF16D200C99D1F /* Stretch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D62ACF16D200C99D1F /* Stretch3.swift */; };
+		ACDBB4DA2ACF16D200C99D1F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D52ACF16D200C99D1F /* Map.swift */; };
+		ACDBB4DB2ACF16D200C99D1F /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D62ACF16D200C99D1F /* Trapezoid.swift */; };
 		ACDBB4DC2ACF16D200C99D1F /* Protocals.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4D72ACF16D200C99D1F /* Protocals.swift */; };
 		ACDBB4F72ACF197E00C99D1F /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4F22ACF197E00C99D1F /* Persistance.swift */; };
 		ACDBB4F82ACF197E00C99D1F /* Retrieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDBB4F32ACF197E00C99D1F /* Retrieve.swift */; };
@@ -54,8 +54,8 @@
 		ACDBB4A82ACF11CB00C99D1F /* WorkingWithDamianUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDamianUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ACDBB4D32ACF16D200C99D1F /* MVPModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVPModifier.swift; path = WorkingWithDamian/Protocals/MVPModifier.swift; sourceTree = SOURCE_ROOT; };
 		ACDBB4D42ACF16D200C99D1F /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coin.swift; path = WorkingWithDamian/Protocals/Coin.swift; sourceTree = SOURCE_ROOT; };
-		ACDBB4D52ACF16D200C99D1F /* Stretch1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stretch1.swift; path = WorkingWithDamian/Protocals/Stretch1.swift; sourceTree = SOURCE_ROOT; };
-		ACDBB4D62ACF16D200C99D1F /* Stretch3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stretch3.swift; path = WorkingWithDamian/Protocals/Stretch3.swift; sourceTree = SOURCE_ROOT; };
+		ACDBB4D52ACF16D200C99D1F /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Map.swift; path = WorkingWithDamian/Protocals/Map.swift; sourceTree = SOURCE_ROOT; };
+		ACDBB4D62ACF16D200C99D1F /* Trapezoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trapezoid.swift; path = WorkingWithDamian/Protocals/Trapezoid.swift; sourceTree = SOURCE_ROOT; };
 		ACDBB4D72ACF16D200C99D1F /* Protocals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Protocals.swift; path = WorkingWithDamian/Protocals/Protocals.swift; sourceTree = SOURCE_ROOT; };
 		ACDBB4F22ACF197E00C99D1F /* Persistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistance.swift; path = WorkingWithDamian/Persistance/Persistance.swift; sourceTree = SOURCE_ROOT; };
 		ACDBB4F32ACF197E00C99D1F /* Retrieve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Retrieve.swift; path = WorkingWithDamian/Persistance/Retrieve.swift; sourceTree = SOURCE_ROOT; };
@@ -153,8 +153,8 @@
 				ACDBB4D42ACF16D200C99D1F /* Coin.swift */,
 				ACDBB4D32ACF16D200C99D1F /* MVPModifier.swift */,
 				ACDBB4D72ACF16D200C99D1F /* Protocals.swift */,
-				ACDBB4D52ACF16D200C99D1F /* Stretch1.swift */,
-				ACDBB4D62ACF16D200C99D1F /* Stretch3.swift */,
+				ACDBB4D52ACF16D200C99D1F /* Map.swift */,
+				ACDBB4D62ACF16D200C99D1F /* Trapezoid.swift */,
 			);
 			name = Protocals;
 			path = Persistance/Protocals;
@@ -302,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDBB4DA2ACF16D200C99D1F /* Stretch1.swift in Sources */,
+				ACDBB4DA2ACF16D200C99D1F /* Map.swift in Sources */,
 				ACDBB4D82ACF16D200C99D1F /* MVPModifier.swift in Sources */,
 				ACDBB4F92ACF197E00C99D1F /* Save.swift in Sources */,
 				ACDBB4F82ACF197E00C99D1F /* Retrieve.swift in Sources */,
@@ -310,7 +310,7 @@
 				ACDBB4FA2ACF197E00C99D1F /* Header.swift in Sources */,
 				ACDE97FF2AD45BBF008069D3 /* Contact.swift in Sources */,
 				ACDBB4D92ACF16D200C99D1F /* Coin.swift in Sources */,
-				ACDBB4DB2ACF16D200C99D1F /* Stretch3.swift in Sources */,
+				ACDBB4DB2ACF16D200C99D1F /* Trapezoid.swift in Sources */,
 				ACDBB4F72ACF197E00C99D1F /* Persistance.swift in Sources */,
 				ACDBB4DC2ACF16D200C99D1F /* Protocals.swift in Sources */,
 			);

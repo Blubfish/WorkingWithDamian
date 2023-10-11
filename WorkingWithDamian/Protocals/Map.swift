@@ -1,16 +1,11 @@
 import SwiftUI
 import MapKit
 
-struct Stretch1: UIViewRepresentable{
+struct Map: UIViewRepresentable {
     typealias UIViewType = MKMapView
     func makeUIView(context: Context) -> MKMapView {
         MKMapView()
     }
     
-    func updateUIView(_ uiView: MKMapView, context: Context) {
-      
-    }
-    
+    func updateUIView(_ uiView: MKMapView, context: Context) {}
 }
-
-
