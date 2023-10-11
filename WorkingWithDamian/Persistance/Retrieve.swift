@@ -73,7 +73,12 @@ struct Retrieve: View {
             
             self.url2 = UserDefaults.standard.url(forKey: "url2")
             
-            self.array = UserDefaults.standard.array(forKey: "array") as! [Double]
+            self.array = { () -> [Double] in
+                if let array = UserDefaults.standard.array(forKey: "array") {
+                    return array as! [Double]
+                }
+                return []
+            }()
             
             let contact = { () -> Contact in
                 if let json = UserDefaults.standard.data(forKey: "contact") {
