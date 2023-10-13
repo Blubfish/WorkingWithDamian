@@ -2,7 +2,7 @@ import SwiftUI
 
 struct Save: View {
     @AppStorage("number1") var number1: Int?
-    @State var number2: Int?
+    @State var number2: Int? // defaults to 0, bug or default?
     
     @AppStorage("url1") var url1: URL?
     @State var url2: URL?
