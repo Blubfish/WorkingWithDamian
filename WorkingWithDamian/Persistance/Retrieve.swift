@@ -28,7 +28,6 @@ struct Retrieve: View {
                     }
                 }
             }
-            
             Group {
                 Text("Stretch #1")
                 if let url = self.url1 {
@@ -38,14 +37,12 @@ struct Retrieve: View {
                     Link("Load URL #2", destination: url)
                 }
             }
-           
             Group {
                 Text("Stretch #2")
                 ForEach(self.array, id: \.self) { value in
                     Text("\(value) ")
                 }  
             }
-            
             Group {
                 Text("Stretch #3")
                 HStack {

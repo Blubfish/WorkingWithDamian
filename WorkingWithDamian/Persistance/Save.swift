@@ -33,7 +33,6 @@ struct Save: View {
                 .background(.blue)
                 .clipShape(Capsule())
             }
-            
             Group {
                 Text("Stretch #1")
                 VStack {
@@ -86,7 +85,6 @@ struct Save: View {
                 .background(.blue)
                 .clipShape(Capsule())
             }
-            
             Group {
                 Text("Stretch #3")
                 VStack {
