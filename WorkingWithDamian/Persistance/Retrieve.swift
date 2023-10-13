@@ -84,12 +84,9 @@ struct Retrieve: View {
                 if let json = UserDefaults.standard.data(forKey: "contact") {
                     if let contact = try? JSONDecoder().decode(Contact.self, from: json) as Contact {
                         return contact
-                    } else {
-                        return Contact()
                     }
-                } else {
-                    return Contact()
                 }
+                return Contact()
             }()
             self.name = contact.name
             if let age = contact.age {
