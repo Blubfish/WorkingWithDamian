@@ -21,12 +21,12 @@ struct Save: View {
             Group {
                 Text("MVP")
                 HStack {
-                    TextField("Integer #1", value: $number1, format: .number)
-                    TextField("Integer #2", value: $number2, format: .number)
+                    TextField("Integer #1", value: self.$number1, format: .number)
+                    TextField("Integer #2", value: self.$number2, format: .number)
                 }
                 .textFieldStyle(.roundedBorder)
                 Button("Save") {
-                    UserDefaults.standard.set(number2, forKey: "number2")
+                    UserDefaults.standard.set(self.number2, forKey: "number2")
                 }
                 .frame(width: 200, height: 50)
                 .foregroundColor(.white)
@@ -38,18 +38,18 @@ struct Save: View {
                 Text("Stretch #1")
                 VStack {
                     TextField("Enter URL #1", text: Binding(
-                        get: { url1?.absoluteString ?? "" },
-                        set: { url1 = URL(string: $0) }
+                        get: { self.url1?.absoluteString ?? "" },
+                        set: { self.url1 = URL(string: $0) }
                     ))
                     TextField("Enter URL #2", text: Binding(
-                        get: { url2?.absoluteString ?? "" },
-                        set: { url2 = URL(string: $0) }
+                        get: { self.url2?.absoluteString ?? "" },
+                        set: { self.url2 = URL(string: $0) }
                     ))
                 }
                 .autocorrectionDisabled(true)
                 .textFieldStyle(.roundedBorder)
                 Button("Save") {
-                    UserDefaults.standard.set(url2, forKey: "url2")
+                    UserDefaults.standard.set(self.url2, forKey: "url2")
                 }
                 .frame(width: 200, height: 50)
                 .foregroundColor(.white)
@@ -61,9 +61,9 @@ struct Save: View {
                 Text("Stretch #2")
                 VStack {
                     HStack {
-                        TextField("#1", value: $arrayNumber1, format: .number)
-                        TextField("#2", value: $arrayNumber2, format: .number)
-                        TextField("#3", value: $arrayNumber3, format: .number)
+                        TextField("#1", value: self.$arrayNumber1, format: .number)
+                        TextField("#2", value: self.$arrayNumber2, format: .number)
+                        TextField("#3", value: self.$arrayNumber3, format: .number)
                     }
                 }
                 .textFieldStyle(.roundedBorder)
@@ -90,9 +90,9 @@ struct Save: View {
             Group {
                 Text("Stretch #3")
                 VStack {
-                    TextField("Enter Name", text: $name)
-                    TextField("Enter Age", value: $age, format: .number)
-                    TextField("Enter Phone", text: $phone)
+                    TextField("Enter Name", text: self.$name)
+                    TextField("Enter Age", value: self.$age, format: .number)
+                    TextField("Enter Phone", text: self.$phone)
                 }
                 .textFieldStyle(.roundedBorder)
                 Button("Save") {
