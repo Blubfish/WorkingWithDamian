@@ -5,3 +5,4 @@ struct Coin: Identifiable {
     let name: String
     let value: Int
 }
+
